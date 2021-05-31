@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/test/Code/GitCode/ElfResolve/src/main.cpp
+/home/test/Code/GitCode/ElfResolve/include/ElfSolve.h
+elf.h
+/home/test/Code/GitCode/ElfResolve/include/elf.h
+
+/home/test/Code/GitCode/ElfResolve/include/elf.h
+features.h
+-
+stdint.h
+-
+bits/auxv.h
+-
+
+/home/test/Code/GitCode/ElfResolve/src/ElfSolve.cpp
+../include/ElfSolve.h
+/home/test/Code/GitCode/ElfResolve/include/ElfSolve.h
 iostream
 -
 

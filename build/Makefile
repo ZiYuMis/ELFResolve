@@ -123,6 +123,33 @@ ElfResolve/fast:
 	$(MAKE) -f CMakeFiles/ElfResolve.dir/build.make CMakeFiles/ElfResolve.dir/build
 .PHONY : ElfResolve/fast
 
+src/ElfSolve.o: src/ElfSolve.cpp.o
+
+.PHONY : src/ElfSolve.o
+
+# target to build an object file
+src/ElfSolve.cpp.o:
+	$(MAKE) -f CMakeFiles/ElfResolve.dir/build.make CMakeFiles/ElfResolve.dir/src/ElfSolve.cpp.o
+.PHONY : src/ElfSolve.cpp.o
+
+src/ElfSolve.i: src/ElfSolve.cpp.i
+
+.PHONY : src/ElfSolve.i
+
+# target to preprocess a source file
+src/ElfSolve.cpp.i:
+	$(MAKE) -f CMakeFiles/ElfResolve.dir/build.make CMakeFiles/ElfResolve.dir/src/ElfSolve.cpp.i
+.PHONY : src/ElfSolve.cpp.i
+
+src/ElfSolve.s: src/ElfSolve.cpp.s
+
+.PHONY : src/ElfSolve.s
+
+# target to generate assembly for a file
+src/ElfSolve.cpp.s:
+	$(MAKE) -f CMakeFiles/ElfResolve.dir/build.make CMakeFiles/ElfResolve.dir/src/ElfSolve.cpp.s
+.PHONY : src/ElfSolve.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ElfResolve"
+	@echo "... src/ElfSolve.o"
+	@echo "... src/ElfSolve.i"
+	@echo "... src/ElfSolve.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

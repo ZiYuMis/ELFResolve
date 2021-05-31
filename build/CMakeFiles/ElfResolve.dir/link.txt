@@ -1,1 +1,1 @@
-/bin/g++-9  -g   CMakeFiles/ElfResolve.dir/src/main.cpp.o  -o ElfResolve 
+/bin/g++-9  -g   CMakeFiles/ElfResolve.dir/src/ElfSolve.cpp.o CMakeFiles/ElfResolve.dir/src/main.cpp.o  -o ElfResolve 

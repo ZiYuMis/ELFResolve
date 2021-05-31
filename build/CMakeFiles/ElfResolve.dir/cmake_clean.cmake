@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ElfResolve.dir/src/ElfSolve.cpp.o"
   "CMakeFiles/ElfResolve.dir/src/main.cpp.o"
   "ElfResolve"
   "ElfResolve.pdb"
