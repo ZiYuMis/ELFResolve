@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/test/Code/GitCode/ElfResolve/build",
+  "command": "/bin/g++-9   -I/home/test/Code/GitCode/ElfResolve/include  -g   -o CMakeFiles/ElfResolve.dir/src/main.cpp.o -c /home/test/Code/GitCode/ElfResolve/src/main.cpp",
+  "file": "/home/test/Code/GitCode/ElfResolve/src/main.cpp"
+}
+]
